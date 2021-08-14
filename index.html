@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Independence Day</title>
+	<style type="text/css">
+
+		.box0{
+			overflow: hidden;
+		}
+		.flag{
+			animation:flagrotate 1s linear 10s 1 forwards;
+
+		}
+
+		@keyframes flagrotate{
+			100%{
+				transform:rotate(-20deg);
+			}
+		}
+		.color1{
+			background:#FF9933;
+			height:220px;
+			width:10%;
+			animation: firststrip 10s linear 1 forwards;
+
+		}
+
+		@keyframes firststrip{
+			100%{
+				transform:scaleX(20.5);
+			}
+		}
+
+		.chakra{
+			height:200px;
+			width:16%;
+			margin-left: 42%;
+			animation: chakra 10s linear  infinite;
+		}
+
+		@keyframes chakra{
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+
+		.color3{
+			background:#138808;
+			height:220px;
+			width:10%;
+			animation: thirdstrip 10s linear 1 forwards;
+		}
+
+		@keyframes thirdstrip{
+			100%{
+				transform:scaleX(20.5);
+			}
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="box0">
+		<div class="flag">
+			<div class="color1"></div>
+			<div>
+				<img src="Ashoka_Chakra.svg" class="chakra">
+			</div>
+			<div class="color3"></div>
+		</div>
+	</div>
+
+
+</body>
+</html>
